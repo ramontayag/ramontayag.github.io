@@ -51,10 +51,23 @@ activate :blog do |blog|
 end
 
 page "/feed.xml", layout: false
+
+# Webpack
+activate(:external_pipeline, {
+ name: :webpack,
+ command: build? ?
+   "./node_modules/webpack/bin/webpack.js --bail -p" :
+   "./node_modules/webpack/bin/webpack.js --watch --progress --color",
+ source: ".tmp/dist",
+ latency: 1,
+})
+
 # Reload the browser automatically whenever files change
-# configure :development do
-#   activate :livereload
-# end
+configure :development do
+  activate :livereload
+  config[:css_dir] = ".tmp/dist"
+  config[:js_dir] = ".tmp/dist"
+end
 
 # Helpers
 # Methods defined in the helpers block are available in templates
