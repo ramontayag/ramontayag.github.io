@@ -15,11 +15,13 @@ module.exports = {
     rules: [
       {
         test: /\.(sa|sc|c)ss$/,
+        exclude: /node_modules/,
         use: [
           MiniCssExtractPlugin.loader,
           'css-loader',
           'sass-loader',
-        ],
+          'postcss-loader',
+        ]
       }
     ]
   },
