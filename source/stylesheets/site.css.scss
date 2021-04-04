@@ -2,6 +2,34 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+@layer base {
+  h1 {
+    @apply text-2xl;
+  }
+  h2 {
+    @apply text-xl;
+  }
+  h3 {
+    @apply text-lg;
+  }
+
+  blockquote {
+    @apply px-4;
+    @apply py-8;
+    @apply text-lg;
+    @apply font-serif;
+  }
+
+  ul {
+    @apply list-disc;
+    @apply list-inside;
+  }
+
+  a {
+    @apply text-blue-700;
+  }
+}
+
 body {
   @apply bg-gray-100;
   @apply text-gray-800;

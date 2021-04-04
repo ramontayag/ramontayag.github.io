@@ -6,6 +6,8 @@ tags: rails
 
 In this blog post I explain how I organize my Rails apps.
 
+READMORE
+
 If you know Rails, then you already probably know about the following:
 
 ## app

@@ -18,3 +18,4 @@ gem 'wdm', '~> 0.1', platforms: [:mswin, :mingw, :x64_mingw]
 
 gem "middleman-livereload"
 gem "slim"
+gem "nokogiri"

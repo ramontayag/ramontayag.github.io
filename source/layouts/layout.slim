@@ -6,25 +6,33 @@ html
     meta content="ie=edge" http-equiv="X-UA-Compatible" /
     meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" /
     title
-      | Blog Title#{' - ' + current_article.title unless current_article.nil?}
+      | Blog #{' - ' + current_article.title unless current_article.nil?}
     = feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed"
     = stylesheet_link_tag "style"
     = javascript_include_tag "site.min"
   body
-    #main role="main"
-      = yield
-    aside
-      h2 Recent Articles
-      ol
-        - blog.articles[0...10].each do |article|
-          li
-            = link_to article.title, article
-            span= article.date.strftime('%b %e')
-      h2 Tags
-      ol
-        - blog.tags.each do |tag, articles|
-          li= link_to "#{tag} (#{articles.size})", tag_path(tag)
-      h2 By Year
-      ol
-        - blog.articles.group_by {|a| a.date.year }.each do |year, articles|
-          li= link_to "#{year} (#{articles.size})", blog_year_path(year)
+    div class="lg:flex mt-4"
+      #main class="grid grid-cols-1 gap-2 px-4 lg:w-4/5" role="main"
+        - if current_article
+          h1 class="text-3xl"
+            = current_article.data.title
+        = yield
+      aside class="md:w-1/5 grid gap-2"
+        div
+          h2 Recent Articles
+          ul
+            - blog.articles[0...10].each do |article|
+              li
+                span>= link_to article.title, article
+                span class="text-gray-500 text-xs"
+                  = article.date.strftime('%b %e')
+        div
+          h2 Tags
+          ol
+            - blog.tags.each do |tag, articles|
+              li= link_to "#{tag} (#{articles.size})", tag_path(tag)
+        div
+          h2 By Year
+          ol
+            - blog.articles.group_by {|a| a.date.year }.each do |year, articles|
+              li= link_to "#{year} (#{articles.size})", blog_year_path(year)
