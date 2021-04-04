@@ -11,16 +11,16 @@ html
     = stylesheet_link_tag "style"
     = javascript_include_tag "site.min"
   body
-    div class="lg:flex md:px-20 lg:px-40 mt-4"
-      #main class="grid grid-cols-1 gap-2 px-4 lg:w-4/5" role="main"
+    div class="lg:flex md:px-20 lg:px-20 mt-4"
+      #main class="grid grid-cols-1 gap-2 px-4 lg:w-4/6" role="main"
         - if current_article
-          div.article
+          article
             h1 class="text-3xl"
               = current_article.data.title
             = yield
         - else
           = yield
-      aside class="md:w-1/5 grid gap-2"
+      aside class="lg:w-2/6 grid gap-2 px-4 lg:px-0 mt-6 lg:mt-0"
         div
           h2 Recent Articles
           ul
