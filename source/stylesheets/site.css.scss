@@ -25,6 +25,15 @@
     @apply list-inside;
   }
 
+  ol {
+    @apply list-decimal;
+    @apply list-inside;
+  }
+
+  li li {
+    @apply ml-4;
+  }
+
   a {
     @apply text-blue-700;
   }
@@ -32,7 +41,7 @@
   code {
     @apply text-red-800;
     @apply bg-gray-200;
-    @apply p-1;
+    @apply my-2;
     @apply text-xs;
     @apply font-mono;
   }
@@ -41,4 +50,14 @@
 body {
   @apply bg-gray-100;
   @apply text-gray-800;
+}
+
+.article {
+  h1, h2, h3, h4, h5, h6 {
+    @apply mt-4;
+  }
+
+  p, > ul, > ol {
+    @apply my-2;
+  }
 }
