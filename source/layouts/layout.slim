@@ -20,8 +20,8 @@ html
             = yield
         - else
           = yield
-      aside class="lg:w-2/6 grid gap-2 px-4 lg:px-0 mt-6 lg:mt-0"
-        div
+      aside class="lg:w-2/6 px-4 lg:px-0 mt-6 lg:mt-0"
+        div class="mb-2"
           h2 Recent Articles
           ul
             - blog.articles[0...10].each do |article|
@@ -29,7 +29,7 @@ html
                 span>= link_to article.title, article
                 span class="text-gray-500 text-xs"
                   = article.date.strftime('%b %e')
-        div
+        div class="mb-2"
           h2 Tags
           ol
             - blog.tags.each do |tag, articles|
