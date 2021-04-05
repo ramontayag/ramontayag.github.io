@@ -21,3 +21,5 @@ gem "slim"
 gem "nokogiri"
 
 gem "middleman-syntax"
+
+gem "middleman-deploy"
