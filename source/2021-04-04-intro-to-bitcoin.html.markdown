@@ -16,20 +16,21 @@ This article is certainly not my original thoughts. I'd like to thank Preston Py
 
 In this article, we will cover:
 
-1. History
-2. How Bitcoin is Valued
-  - Compared to Gold
-  - Compared to Bonds
-  - Global Reserve Asset
-3. Risks
-  - Software Bugs
-  - Global Liquidation Events
-  - Government Ban
-4. Trading
-  - Sats: The Smallest Unit
-  - Fees
-  - Taxes
-5. Storage
+1. [History](#history)
+2. [How Bitcoin is Valued](#how-bitcoin-is-valued)
+    - [Compared to Gold](#compared-to-gold)
+    - [Compared to Bonds](#compared-to-bonds)
+    - [Global Reserve Asset](#global-reserve-asset)
+3. [Risks](#risks)
+    - [Software Bugs](#software-bugs)
+    - [Global Liquidation Events](#global-liquidation-events)
+    - [Government Ban](#government-ban)
+4. [Trading](#trading)
+    - [Sats: The Smallest Unit](#sats)
+    - [Fees](#fees)
+    - [Taxes](#taxes)
+5. [Storage](#storage)
+6. [Conclusion](#conclusion)
 
 # History
 In November 2008, the pseudonymous creator of Bitcoin going by Satoshi Nakamoto, announced their invention of something called Bitcoin in the cypherpunks mailing list. He described Bitcoin as "electronic cash system that's fully peer-to-peer, with no trusted third party".
@@ -60,6 +61,7 @@ While new Bitcoin will continue being issued for a while, the halvings are highl
 </figure>
 
 # How Bitcoin is Valued
+
 ## Compared to Gold
 When valuing a new type of asset, the most obvious way is to look at something similar. Since Bitcoin is often touted to be digital gold, it's no surprise we look at gold to attempt to value Bitcoin.
 
@@ -99,6 +101,7 @@ As more energy companies pour otherwise wasted energy to securing the Bitcoin ne
 > -- Greg Foss, [What Bitcoin Did postcast](https://www.whatbitcoindid.com/podcast/bitcoin-as-investment-portfolio-insurance)
 
 # Risks
+
 ## Software Bugs
 As with all software, Bitcoin is subject to bugs. Some are worse than others, and a fairly recent example is the [inflation bug](https://bitcoincore.org/en/2018/09/20/notice/).
 
@@ -120,8 +123,9 @@ The US government seems to be more open to Bitcoin than every before, including 
 
 In the Philippines, Bitcoin is recognized and regulated by the [Bangko Sentral](https://bitpinas.com/feature/list-licensed-virtual-currency-exchanges-philippines/).
 
-# Trading Bitcoin
-## Sats: The Smallest Unit
+# Trading
+
+## Sats: The Smallest Unit {#sats}
 One of the most common misconceptions with Bitcoin is the idea that people cannot subdivide a Bitcoin. A single Bitcoin can be subdivided into 100 million subunits called Satoshis, or sats for short.
 
 Since there will only be 21 million Bitcoin that will ever exist, this is absolutely integral to be able to ensure that everyone can theoretically own at least a fraction of a Bitcoin.
@@ -135,7 +139,6 @@ When you sell Bitcoin, some jurisdictions require you to pay capital gains, whil
 In the Philippines, I am not aware of anything declared by the BIR.
 
 # Storage
-
 Even through Bitcoin is a digital, non-physical asset, storage of Bitcoin means proper storage of keys. These keys behave like long, secure passwords that give the bearer the ability to send Bitcoin to someone else. There are two types of storage:
 
 - **Non-custodial**. In this scenario, you control the key (or keys) required to send Bitcoin out.
@@ -144,7 +147,6 @@ Even through Bitcoin is a digital, non-physical asset, storage of Bitcoin means 
 Although security is not an easy subject, custody of large of amounts of Bitcoin is much easier and cheaper than storing the equivalent in gold. Wallet software such as [Specter Desktop](https://specter.solutions/) make multi-signature (require more than one key to send Bitcoin out) wallets much easier to create, utilizing [hardware](coldcardwallet.com/) [wallets](https://cobo.com/hardware-wallet/cobo-vault) that store these secret keys away from potential hackers' prying eyes on machines connected to the Internet.
 
 # Conclusion
-
 While no one will ever understand Bitcoin in its entirety, being able to understand it enough requires hundreds, perhaps even thousands of hours devouring content.
 
 > Owning bitcoins is one of the few asymmetric bets that people across the entire world can participate in. Much like a call option, an investor’s downside is limited to 1x, while their potential upside is still 100x or more.

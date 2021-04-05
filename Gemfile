@@ -5,7 +5,7 @@ gem 'middleman', '~> 4.2'
 gem 'middleman-blog'
 gem 'middleman-autoprefixer', '~> 2.7'
 
-gem 'redcarpet', '~> 3.3', '>= 3.3.3'
+gem 'kramdown'
 
 # For feed.xml.builder
 gem 'builder', '~> 3.0'

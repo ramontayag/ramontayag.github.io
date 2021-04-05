@@ -91,7 +91,7 @@ configure :build do
 end
 
 set :slim
-set :markdown_engine, :redcarpet
+set :markdown_engine, :kramdown
 set :markdown, :fenced_code_blocks => true, :smartypants => true, tables: true
 
 activate :syntax
