@@ -4,7 +4,7 @@ date: 2021-04-04
 tags: bitcoin
 ---
 
-I was recently considered to speak about Bitcoin as a financial asset to a group of financial professionals, and though I wasn't chosen, this is a topic I am deeply interested in. I decided to write down my thoughts anyway to possibly use it in the future, and of course, to help others understand Bitcoin.
+I was recently approached as a candidate to speak about Bitcoin as a financial asset to a group of professionals in that field. However, plans changed and I ended up not joining panel. Because this is a topic I am deeply interested in, I decided to get it down in writing to use it in the future, and of course, to help others understand Bitcoin.
 
 READMORE
 
