@@ -1,0 +1,72 @@
+<!DOCTYPE html><html><head><meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><meta charset="utf-8" /><meta content="ie=edge" http-equiv="X-UA-Compatible" /><meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" /><title>Blog  - How I Organize My Rails Apps</title><link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" /><link href="/style.css" rel="stylesheet" /><script src="/site.min.js"></script></head><body><div class="lg:flex md:px-20 lg:px-20 mt-4"><div class="grid grid-cols-1 gap-2 px-4 lg:w-4/6" id="main" role="main"><article><h1 class="text-3xl">How I Organize My Rails Apps</h1><p>In this blog post I explain how I organize my Rails apps.</p>
+
+<p></p>
+
+<p>If you know Rails, then you already probably know about the following:</p>
+
+<h2 id="app">app</h2>
+
+<ul>
+  <li><code>app/models</code> for ActiveRecord and non-ActiveRecord models</li>
+  <li><code>app/models/concerns</code> for model concerns</li>
+  <li><code>app/controllers</code> for Rails controllers</li>
+  <li><code>app/controllers/concerns</code> for controller concerns</li>
+  <li><code>app/assets/javascripts</code> for javascript assets</li>
+  <li><code>app/assets/stylesheets</code> for stylesheet assets</li>
+  <li><code>app/assets/images</code> for images</li>
+  <li><code>app/views</code> for all view templates</li>
+  <li><code>app/workers</code> or <code>app/jobs</code> for workers/jobs</li>
+</ul>
+
+<p>If there are multiple objects in the <code>app/models</code> folder that seem to follow a pattern, like <code>PaymentNotification</code>, <code>OrderNotification</code>, then you can move those into its own folder: <code>app/notifications</code></p>
+
+<h2 id="lib">lib</h2>
+
+<p>The typical situation is that files that don’t seem to fit anywhere then are dumped into <code>lib</code>. The problem with this is that it gets bloated. What I’ve found helpful are the following:</p>
+
+<ul>
+  <li><code>app/services</code> for service objects that <strong>are verbs</strong>, like:
+    <ul>
+      <li><code>ProcessCreditCard</code></li>
+      <li><code>BroadcastPaymentNotification</code></li>
+    </ul>
+  </li>
+</ul>
+
+<p>Only classes that are not specific to my application go to the <code>lib</code> folder. These classes may be used in other projects – perhaps you have the intention of making a gem from them.</p>
+
+<h2 id="vendor">vendor</h2>
+
+<ul>
+  <li><code>vendor</code> for third-party libraries that are not installed via a gem for some reason.</li>
+</ul>
+
+<h2 id="assets">Assets</h2>
+
+<p>When it comes to assets, I have the same rules of thumb as above:</p>
+
+<ul>
+  <li><code>app/assets</code> for assets that are specific to my application</li>
+  <li><code>lib/assets</code> for assets that I have that may be used in other apps</li>
+  <li><code>vendor/assets</code> for third party assets that are not installed via gems</li>
+</ul>
+
+<p>There’s one difference: when a asset “package” asset is neither pure JS or pure CSS, then I create a <code>plugins</code> folder under <code>assets</code>. For example: <code>vendor/assets/plugins/carousel-4.2.1</code></p>
+
+<h2 id="specs">Specs</h2>
+
+<p>My spec files are organized the following way:</p>
+
+<ul>
+  <li><code>spec/models</code></li>
+  <li><code>spec/controllers</code></li>
+  <li><code>spec/workers</code></li>
+  <li><code>spec/jobs</code></li>
+  <li><code>spec/services</code></li>
+  <li><code>spec/lib/some_library_that_i_made</code></li>
+</ul>
+
+<p>In short, anything that is in <code>app</code> gets it own folder directly under <code>spec</code>. If I’m testing something in <code>lib</code>, then I create a <code>spec/lib</code> folder and put the specs in there.</p>
+
+<p>There are other things to cover like custom RSpec matchers but they are RSpec specific. I may talk about them in a different post.</p>
+</article></div><aside class="lg:w-2/6 px-4 lg:px-0 mt-6 lg:mt-0"><div class="mb-2"><h2>Recent Articles</h2><ul><li><span><a href="/2021/04/04/intro-to-bitcoin.html">Intro to Bitcoin</a></span> <span class="text-gray-500 text-xs">Apr  4</span></li><li><span><a href="/2015/01/22/how-i-organize-my-rails-app.html">How I Organize My Rails Apps</a></span> <span class="text-gray-500 text-xs">Jan 22</span></li></ul></div><div class="mb-2"><h2>Tags</h2><ol><li><a href="/tags/bitcoin.html">bitcoin (1)</a></li><li><a href="/tags/rails.html">rails (1)</a></li></ol></div><div><h2>By Year</h2><ol><li><a href="/2021.html">2021 (1)</a></li><li><a href="/2015.html">2015 (1)</a></li></ol></div></aside></div></body></html>

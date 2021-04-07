@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog Name</title>
+  <subtitle>Blog subtitle</subtitle>
+  <id>http://blog.url.com/</id>
+  <link href="http://blog.url.com/"/>
+  <link href="http://blog.url.com/feed.xml" rel="self"/>
+  <updated>2021-04-04T08:00:00+08:00</updated>
+  <author>
+    <name>Blog Author</name>
+  </author>
+  <entry>
+    <title>Intro to Bitcoin</title>
+    <link rel="alternate" href="http://blog.url.com/2021/04/04/intro-to-bitcoin.html"/>
+    <id>http://blog.url.com/2021/04/04/intro-to-bitcoin.html</id>
+    <published>2021-04-04T08:00:00+08:00</published>
+    <updated>2021-04-05T08:38:22+08:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;I was recently considered to speak about Bitcoin as a financial asset to a group of financial professionals, and though I wasn’t chosen, this is a topic I am deeply interested in. I decided to write down my thoughts anyway to possibly use it in the future, and of course, to help others understand Bitcoin.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;Having a computer science background, I naturally more easily understood the technical side of Bitcoin. Though I’m not a cryptographer or a distributed systems programmer, I had the background to at least understand the basic concepts of Bitcoin. Naturally, while learning the technical side of Bitcoin, I asked the age-old question: &lt;strong&gt;what is money?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This quickly led me down the deep rabbit-hole of money and its history, banking and its history, fiat currencies, gold standard, economics, and the latest addition, macroeconomics. In 2019, it started to click for me: &lt;strong&gt;Bitcoin is the most important invention since the Internet because of its potential to be a global reserve asset&lt;/strong&gt;. Since money is a winner-take-most game, I decided to set my sites exclusively on Bitcoin.&lt;/p&gt;
+
+&lt;p&gt;This article is certainly not my original thoughts. I’d like to thank Preston Pysh, Lyn Alden, Greg Foss, Nik Bhatia, and many others who, through their articles and podcasts, have helped me understand Bitcoin from a financial point of view.&lt;/p&gt;
+
+&lt;p&gt;In this article, we will cover:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href="#history"&gt;History&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#how-bitcoin-is-valued"&gt;How Bitcoin is Valued&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href="#compared-to-gold"&gt;Compared to Gold&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="#compared-to-bonds"&gt;Compared to Bonds&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="#global-reserve-asset"&gt;Global Reserve Asset&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href="#risks"&gt;Risks&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href="#software-bugs"&gt;Software Bugs&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="#global-liquidation-events"&gt;Global Liquidation Events&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="#government-ban"&gt;Government Ban&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href="#trading"&gt;Trading&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href="#sats"&gt;Sats: The Smallest Unit&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="#fees"&gt;Fees&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="#taxes"&gt;Taxes&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href="#storage"&gt;Storage&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#conclusion"&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id="history"&gt;History&lt;/h1&gt;
+&lt;p&gt;In November 2008, the pseudonymous creator of Bitcoin going by Satoshi Nakamoto, announced their invention of something called Bitcoin in the cypherpunks mailing list. He described Bitcoin as “electronic cash system that’s fully peer-to-peer, with no trusted third party”.&lt;/p&gt;
+
+&lt;p&gt;Despite the attention it’s getting today, Bitcoin was ignored by many for years. The first price appeared about 1.5 years after Satoshi’s announcement at a meager &lt;a href="https://en.bitcoinwiki.org/wiki/Bitcoin_history#Bitcoin_price_history_2009_to_2019"&gt;$0.003 per Bitcoin&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;New Bitcoin is created roughly every 10 minutes by a process called mining. Bitcoin mining halves the issuance of Bitcoin to miners roughly every 4 years, creating a predictable schedule of inflation.&lt;/p&gt;
+
+&lt;p&gt;For the first four years, 50 Bitcoin was created every 10 minutes. For the next four years, the issuance rate is halved, just to repeat itself four years later. The event where the the issuance rate is cut by half is called The Halving.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style="text-align: center"&gt;Epoch&lt;/th&gt;
+      &lt;th style="text-align: center"&gt;Reward every 10 minutes&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style="text-align: center"&gt;2008-2012&lt;/td&gt;
+      &lt;td style="text-align: center"&gt;50&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="text-align: center"&gt;2012-2016&lt;/td&gt;
+      &lt;td style="text-align: center"&gt;25&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="text-align: center"&gt;2016-2020&lt;/td&gt;
+      &lt;td style="text-align: center"&gt;12.5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="text-align: center"&gt;2020-2024&lt;/td&gt;
+      &lt;td style="text-align: center"&gt;6.25&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style="text-align: center"&gt;2024-2028&lt;/td&gt;
+      &lt;td style="text-align: center"&gt;3.125&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;If you sum all of this, Bitcoin will have a little less than 21 million Bitcoin by the year May 2138 – over 120 years from today.&lt;/p&gt;
+
+&lt;p&gt;While new Bitcoin will continue being issued for a while, the halvings are highly correlated with price spikes.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;a href="https://digitalik.net/btc/"&gt;&lt;img src="/2021/04/04/intro-to-bitcoin/s2f.gif" target="_blank" /&gt;&lt;/a&gt;
+&lt;figcaption&gt;
+&lt;a href="https://digitalik.net/btc/" target="_blank"&gt;Stock-to-flow chart&lt;/a&gt; on &lt;a href="https://digitalik.net" target="_blank"&gt;digitalik.net&lt;/a&gt; dives into this topic more deeply, attempting to model a link between the supply and the price.
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h1 id="how-bitcoin-is-valued"&gt;How Bitcoin is Valued&lt;/h1&gt;
+
+&lt;h2 id="compared-to-gold"&gt;Compared to Gold&lt;/h2&gt;
+&lt;p&gt;When valuing a new type of asset, the most obvious way is to look at something similar. Since Bitcoin is often touted to be digital gold, it’s no surprise we look at gold to attempt to value Bitcoin.&lt;/p&gt;
+
+&lt;p&gt;Physical gold has long been the non-sovereign store of value without counter-party risk. Although the gold standard was severed in 1971, central banks today still buy gold. Gold’s current market cap is roughly $10 trillion, the exact number being difficult to determine.&lt;/p&gt;
+
+&lt;p&gt;Bitcoin’s current market cap is $1.2 trillion, and for Bitcoin to reach gold’s market cap it would have to go 8.3x from here, or from $60,000 per Bitcoin to $498,000 per Bitcoin.&lt;/p&gt;
+
+&lt;p&gt;Even if Bitcoin reaches gold levels and not higher, the upside potential is massive, cementing Bitcoin as the best asymmetric bet one can take today.&lt;/p&gt;
+
+&lt;p&gt;Money has always been a technology, and nothing embodies this more than that money becoming software. Since Bitcoin is pure information, the shackles that limits gold have nothing to grasp onto when it comes to Bitcoin. &lt;a href="https://www.cryptopolitan.com/bitcoin-worth-4-5-billion-transferred/"&gt;Settling billions of dollars&lt;/a&gt; worth in value can happen in an hour instead of three banking days.&lt;/p&gt;
+
+&lt;h2 id="compared-to-bonds"&gt;Compared to Bonds&lt;/h2&gt;
+&lt;p&gt;Total bond market is roughly $100 trillion. This is the amount of debt denominated in corporate and government bonds.&lt;/p&gt;
+
+&lt;p&gt;As bond yields lower due to the central banks printing and inflation expectations rise, many are forced to allocate at least some portion of their assets to Bitcoin that has had an average returns of 200% per year for the last 10 years.&lt;/p&gt;
+
+&lt;p&gt;You already see this shift happening to &lt;a href="https://bitcointreasuries.org/"&gt;private and publicly traded companies&lt;/a&gt; and &lt;a href="https://seekingalpha.com/news/3671187-new-york-life-ceo-ted-mathas-warms-to-bitcoin-joins-nydig"&gt;insurance companies&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If Bitcoin received 5% percent of this &lt;em&gt;alone&lt;/em&gt;, not accounting for any store of value premium taken from other assets, Bitcoin would have a market cap of $5 trillion or a little above $238,000 per Bitcoin.&lt;/p&gt;
+
+&lt;h2 id="global-reserve-asset"&gt;Global Reserve Asset&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="https://www.oecd-ilibrary.org/sites/095705eb-en/index.html?itemId=/content/component/095705eb-en"&gt;Total global financial assets amount to about $400 trillion&lt;/a&gt;. If Bitcoin takes a mere 5% allocation of this, then Bitcoin would have a market cap of $20 trillion or a little less than a $1 million per Bitcoin.&lt;/p&gt;
+
+&lt;p&gt;Since Bitcoin is created via mining, and mining requires energy, due to the lack of physical form of Bitcoin, &lt;a href="https://gam.ai/"&gt;many&lt;/a&gt; &lt;a href="https://www.upstreamdata.ca/"&gt;entrepreneurs&lt;/a&gt; are catching on to the idea of mining Bitcoin using stranded energy sources.&lt;/p&gt;
+
+&lt;p&gt;You even have the likes of large energy players such as Norway’s Aker, through their Bitcoin-focused company &lt;a href="seetee.io"&gt;Seetee&lt;/a&gt;, acknowledge Bitcoin’s role in balancing global energy usage.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Seetee will establish mining operations that transfer stranded or intermittent electricity without stable demand locally—wind, solar, hydro power— to economic assets that can be used anywhere. Bitcoin is, in our eyes, a load-balancing economic battery.&lt;/p&gt;
+
+  &lt;p&gt;– Kjell Inge Røkke, &lt;a href="https://www.seetee.io/"&gt;letter to shareholders&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;As more energy companies pour otherwise wasted energy to securing the Bitcoin network, along with the fraying of the &lt;a href="https://www.lynalden.com/fraying-petrodollar-system/"&gt;US global currency reserve system&lt;/a&gt;, there’s a non-miniscule chance that energy providers that to price the energy they produce in Bitcoin. When this occurs, Bitcoin will have its petrodollar moment.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you own zero bitcoin right now, you are taking extreme amounts of risk.&lt;/p&gt;
+
+  &lt;p&gt;– Greg Foss, &lt;a href="https://www.whatbitcoindid.com/podcast/bitcoin-as-investment-portfolio-insurance"&gt;What Bitcoin Did postcast&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id="risks"&gt;Risks&lt;/h1&gt;
+
+&lt;h2 id="software-bugs"&gt;Software Bugs&lt;/h2&gt;
+&lt;p&gt;As with all software, Bitcoin is subject to bugs. Some are worse than others, and a fairly recent example is the &lt;a href="https://bitcoincore.org/en/2018/09/20/notice/"&gt;inflation bug&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Undoing the effects bugs such as these could involve forking the network if it has been exploited, but what’s equally important is knowing when such breaches occur. This is an excellent reason for people to run their own Bitcoin nodes. With this, they may verify the supply without having to trust a third party.&lt;/p&gt;
+
+&lt;h2 id="global-liquidation-events"&gt;Global Liquidation Events&lt;/h2&gt;
+&lt;p&gt;In March 2020, there was a global liquidation event in which people sold assets to ensure they would have enough dollars to pay for debt they had which was denominated in US dollars. Bitcoin &lt;a href="https://www.cnbc.com/2020/03/13/bitcoin-loses-half-of-its-value-in-two-day-plunge.html"&gt;plunged to about $4,000&lt;/a&gt; from $10,000. Since Bitcoin markets are on 24/7 and are not shut down during extreme market events, it is a good candidate as a source of liquidity. When you’re desperate for dollars, you sell what you can, not what you want.&lt;/p&gt;
+
+&lt;p&gt;To avoid being affected by this, one can have a longer time horizon when buying Bitcoin, such as at least 5 years.&lt;/p&gt;
+
+&lt;h2 id="government-ban"&gt;Government Ban&lt;/h2&gt;
+&lt;p&gt;One of the oldest worries of investors is having the governments ban Bitcoin. This is a tired topic, one that &lt;a href="https://unchained-capital.com/blog/bitcoin-cannot-be-banned/"&gt;has been covered&lt;/a&gt; in greater detail than I could.&lt;/p&gt;
+
+&lt;p&gt;While you have had some states ban it, such as &lt;a href="https://www.forbes.com/sites/steveforbes/2021/03/18/indias-plan-to-ban-bitcoin-could-the-us-be-next/"&gt;India&lt;/a&gt; and &lt;a href="https://dailypost.ng/2021/02/05/breaking-cbn-bans-nigerians-from-buying-selling-bitcoin-crypto/"&gt;Nigeria&lt;/a&gt;, the opposite effect seems to occur – to the extent that the &lt;a href="https://news.bitcoin.com/nigeria-crypto-ban-bitcoin-sells-for-76k-as-deposits-on-centralized-exchanges-plummet/"&gt;price even goes higher&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Such bans beg the question: will strong states like the US ban Bitcoin?&lt;/p&gt;
+
+&lt;p&gt;The US government seems to be more open to Bitcoin than every before, including allowing &lt;a href="Coinbase%20to%20go%20public"&gt;Coinbase to go public&lt;/a&gt;, &lt;a href="public%20companies%20to%20buy%20Bitcoin"&gt;public companies to buy Bitcoin&lt;/a&gt;, furthermore, &lt;a href="https://www.cnbc.com/2021/02/11/bny-mellon-to-offer-bitcoin-services-a-validation-of-crypto-from-a-key-bank-in-the-financial-system.html"&gt;traditional&lt;/a&gt; &lt;a href="https://www.cnbc.com/2021/03/31/bitcoin-goldman-is-close-to-offering-bitcoin-to-its-richest-clients.html"&gt;banks&lt;/a&gt; have been getting into the scene as well.&lt;/p&gt;
+
+&lt;p&gt;In the Philippines, Bitcoin is recognized and regulated by the &lt;a href="https://bitpinas.com/feature/list-licensed-virtual-currency-exchanges-philippines/"&gt;Bangko Sentral&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id="trading"&gt;Trading&lt;/h1&gt;
+
+&lt;h2 id="sats"&gt;Sats: The Smallest Unit&lt;/h2&gt;
+&lt;p&gt;One of the most common misconceptions with Bitcoin is the idea that people cannot subdivide a Bitcoin. A single Bitcoin can be subdivided into 100 million subunits called Satoshis, or sats for short.&lt;/p&gt;
+
+&lt;p&gt;Since there will only be 21 million Bitcoin that will ever exist, this is absolutely integral to be able to ensure that everyone can theoretically own at least a fraction of a Bitcoin.&lt;/p&gt;
+
+&lt;h2 id="fees"&gt;Fees&lt;/h2&gt;
+&lt;p&gt;Bitcoin trades like other commodities, through over-the-counter, peer-to-peer, and order book exchanges. Each of these have their version of a fee applied depending on local market conditions.&lt;/p&gt;
+
+&lt;h2 id="taxes"&gt;Taxes&lt;/h2&gt;
+&lt;p&gt;When you sell Bitcoin, some jurisdictions require you to pay capital gains, while &lt;a href="https://www.forbes.com/sites/kellyphillipserb/2019/09/19/portugal-tax-authorities-clarify-that-buying-or-selling-cryptocurrency-is-tax-free/"&gt;others do not&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In the Philippines, I am not aware of anything declared by the BIR.&lt;/p&gt;
+
+&lt;h1 id="storage"&gt;Storage&lt;/h1&gt;
+&lt;p&gt;Even through Bitcoin is a digital, non-physical asset, storage of Bitcoin means proper storage of keys. These keys behave like long, secure passwords that give the bearer the ability to send Bitcoin to someone else. There are two types of storage:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Non-custodial&lt;/strong&gt;. In this scenario, you control the key (or keys) required to send Bitcoin out.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Custodial&lt;/strong&gt;. You need to ask someone else to send the Bitcoin for you. In the past several years, the infrastructure in this area has grown tremendously, allowing institutions to give custody of their assets to companies such as &lt;a href="https://anchorage.com/"&gt;Anchorage&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Although security is not an easy subject, custody of large of amounts of Bitcoin is much easier and cheaper than storing the equivalent in gold. Wallet software such as &lt;a href="https://specter.solutions/"&gt;Specter Desktop&lt;/a&gt; make multi-signature (require more than one key to send Bitcoin out) wallets much easier to create, utilizing &lt;a href="coldcardwallet.com/"&gt;hardware&lt;/a&gt; &lt;a href="https://cobo.com/hardware-wallet/cobo-vault"&gt;wallets&lt;/a&gt; that store these secret keys away from potential hackers’ prying eyes on machines connected to the Internet.&lt;/p&gt;
+
+&lt;h1 id="conclusion"&gt;Conclusion&lt;/h1&gt;
+&lt;p&gt;While no one will ever understand Bitcoin in its entirety, being able to understand it enough requires hundreds, perhaps even thousands of hours devouring content.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Owning bitcoins is one of the few asymmetric bets that people across the entire world can participate in. Much like a call option, an investor’s downside is limited to 1x, while their potential upside is still 100x or more.&lt;/p&gt;
+
+  &lt;p&gt;– Vijay Voyapati on &lt;a href="https://vijayboyapati.medium.com/the-bullish-case-for-bitcoin-6ecc8bdecc1"&gt;The Bullish Case for Bitcoin&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This article only touches the surface of Bitcoin. If you feel like I should have covered something here, or wish that I write about something else, please email me: ramon at tayag.net.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>How I Organize My Rails Apps</title>
+    <link rel="alternate" href="http://blog.url.com/2015/01/22/how-i-organize-my-rails-app.html"/>
+    <id>http://blog.url.com/2015/01/22/how-i-organize-my-rails-app.html</id>
+    <published>2015-01-22T08:00:00+08:00</published>
+    <updated>2021-04-04T10:09:48+08:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;In this blog post I explain how I organize my Rails apps.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;If you know Rails, then you already probably know about the following:&lt;/p&gt;
+
+&lt;h2 id="app"&gt;app&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code&gt;app/models&lt;/code&gt; for ActiveRecord and non-ActiveRecord models&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;app/models/concerns&lt;/code&gt; for model concerns&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;app/controllers&lt;/code&gt; for Rails controllers&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;app/controllers/concerns&lt;/code&gt; for controller concerns&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;app/assets/javascripts&lt;/code&gt; for javascript assets&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;app/assets/stylesheets&lt;/code&gt; for stylesheet assets&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;app/assets/images&lt;/code&gt; for images&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;app/views&lt;/code&gt; for all view templates&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;app/workers&lt;/code&gt; or &lt;code&gt;app/jobs&lt;/code&gt; for workers/jobs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If there are multiple objects in the &lt;code&gt;app/models&lt;/code&gt; folder that seem to follow a pattern, like &lt;code&gt;PaymentNotification&lt;/code&gt;, &lt;code&gt;OrderNotification&lt;/code&gt;, then you can move those into its own folder: &lt;code&gt;app/notifications&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id="lib"&gt;lib&lt;/h2&gt;
+
+&lt;p&gt;The typical situation is that files that don’t seem to fit anywhere then are dumped into &lt;code&gt;lib&lt;/code&gt;. The problem with this is that it gets bloated. What I’ve found helpful are the following:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code&gt;app/services&lt;/code&gt; for service objects that &lt;strong&gt;are verbs&lt;/strong&gt;, like:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code&gt;ProcessCreditCard&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code&gt;BroadcastPaymentNotification&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Only classes that are not specific to my application go to the &lt;code&gt;lib&lt;/code&gt; folder. These classes may be used in other projects – perhaps you have the intention of making a gem from them.&lt;/p&gt;
+
+&lt;h2 id="vendor"&gt;vendor&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code&gt;vendor&lt;/code&gt; for third-party libraries that are not installed via a gem for some reason.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="assets"&gt;Assets&lt;/h2&gt;
+
+&lt;p&gt;When it comes to assets, I have the same rules of thumb as above:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code&gt;app/assets&lt;/code&gt; for assets that are specific to my application&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;lib/assets&lt;/code&gt; for assets that I have that may be used in other apps&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;vendor/assets&lt;/code&gt; for third party assets that are not installed via gems&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There’s one difference: when a asset “package” asset is neither pure JS or pure CSS, then I create a &lt;code&gt;plugins&lt;/code&gt; folder under &lt;code&gt;assets&lt;/code&gt;. For example: &lt;code&gt;vendor/assets/plugins/carousel-4.2.1&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id="specs"&gt;Specs&lt;/h2&gt;
+
+&lt;p&gt;My spec files are organized the following way:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code&gt;spec/models&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;spec/controllers&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;spec/workers&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;spec/jobs&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;spec/services&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;spec/lib/some_library_that_i_made&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In short, anything that is in &lt;code&gt;app&lt;/code&gt; gets it own folder directly under &lt;code&gt;spec&lt;/code&gt;. If I’m testing something in &lt;code&gt;lib&lt;/code&gt;, then I create a &lt;code&gt;spec/lib&lt;/code&gt; folder and put the specs in there.&lt;/p&gt;
+
+&lt;p&gt;There are other things to cover like custom RSpec matchers but they are RSpec specific. I may talk about them in a different post.&lt;/p&gt;
+</content>
+  </entry>
+</feed>

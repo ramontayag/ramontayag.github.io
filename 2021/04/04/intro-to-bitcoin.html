@@ -1,0 +1,193 @@
+<!DOCTYPE html><html><head><meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><meta charset="utf-8" /><meta content="ie=edge" http-equiv="X-UA-Compatible" /><meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" /><title>Blog  - Intro to Bitcoin</title><link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" /><link href="/style.css" rel="stylesheet" /><script src="/site.min.js"></script></head><body><div class="lg:flex md:px-20 lg:px-20 mt-4"><div class="grid grid-cols-1 gap-2 px-4 lg:w-4/6" id="main" role="main"><article><h1 class="text-3xl">Intro to Bitcoin</h1><p>I was recently considered to speak about Bitcoin as a financial asset to a group of financial professionals, and though I wasn’t chosen, this is a topic I am deeply interested in. I decided to write down my thoughts anyway to possibly use it in the future, and of course, to help others understand Bitcoin.</p>
+
+<p></p>
+
+<p>Having a computer science background, I naturally more easily understood the technical side of Bitcoin. Though I’m not a cryptographer or a distributed systems programmer, I had the background to at least understand the basic concepts of Bitcoin. Naturally, while learning the technical side of Bitcoin, I asked the age-old question: <strong>what is money?</strong></p>
+
+<p>This quickly led me down the deep rabbit-hole of money and its history, banking and its history, fiat currencies, gold standard, economics, and the latest addition, macroeconomics. In 2019, it started to click for me: <strong>Bitcoin is the most important invention since the Internet because of its potential to be a global reserve asset</strong>. Since money is a winner-take-most game, I decided to set my sites exclusively on Bitcoin.</p>
+
+<p>This article is certainly not my original thoughts. I’d like to thank Preston Pysh, Lyn Alden, Greg Foss, Nik Bhatia, and many others who, through their articles and podcasts, have helped me understand Bitcoin from a financial point of view.</p>
+
+<p>In this article, we will cover:</p>
+
+<ol>
+  <li><a href="#history">History</a></li>
+  <li><a href="#how-bitcoin-is-valued">How Bitcoin is Valued</a>
+    <ul>
+      <li><a href="#compared-to-gold">Compared to Gold</a></li>
+      <li><a href="#compared-to-bonds">Compared to Bonds</a></li>
+      <li><a href="#global-reserve-asset">Global Reserve Asset</a></li>
+    </ul>
+  </li>
+  <li><a href="#risks">Risks</a>
+    <ul>
+      <li><a href="#software-bugs">Software Bugs</a></li>
+      <li><a href="#global-liquidation-events">Global Liquidation Events</a></li>
+      <li><a href="#government-ban">Government Ban</a></li>
+    </ul>
+  </li>
+  <li><a href="#trading">Trading</a>
+    <ul>
+      <li><a href="#sats">Sats: The Smallest Unit</a></li>
+      <li><a href="#fees">Fees</a></li>
+      <li><a href="#taxes">Taxes</a></li>
+    </ul>
+  </li>
+  <li><a href="#storage">Storage</a></li>
+  <li><a href="#conclusion">Conclusion</a></li>
+</ol>
+
+<h1 id="history">History</h1>
+<p>In November 2008, the pseudonymous creator of Bitcoin going by Satoshi Nakamoto, announced their invention of something called Bitcoin in the cypherpunks mailing list. He described Bitcoin as “electronic cash system that’s fully peer-to-peer, with no trusted third party”.</p>
+
+<p>Despite the attention it’s getting today, Bitcoin was ignored by many for years. The first price appeared about 1.5 years after Satoshi’s announcement at a meager <a href="https://en.bitcoinwiki.org/wiki/Bitcoin_history#Bitcoin_price_history_2009_to_2019">$0.003 per Bitcoin</a>.</p>
+
+<p>New Bitcoin is created roughly every 10 minutes by a process called mining. Bitcoin mining halves the issuance of Bitcoin to miners roughly every 4 years, creating a predictable schedule of inflation.</p>
+
+<p>For the first four years, 50 Bitcoin was created every 10 minutes. For the next four years, the issuance rate is halved, just to repeat itself four years later. The event where the the issuance rate is cut by half is called The Halving.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Epoch</th>
+      <th style="text-align: center">Reward every 10 minutes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">2008-2012</td>
+      <td style="text-align: center">50</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">2012-2016</td>
+      <td style="text-align: center">25</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">2016-2020</td>
+      <td style="text-align: center">12.5</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">2020-2024</td>
+      <td style="text-align: center">6.25</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">2024-2028</td>
+      <td style="text-align: center">3.125</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>If you sum all of this, Bitcoin will have a little less than 21 million Bitcoin by the year May 2138 – over 120 years from today.</p>
+
+<p>While new Bitcoin will continue being issued for a while, the halvings are highly correlated with price spikes.</p>
+
+<figure>
+<a href="https://digitalik.net/btc/"><img src="/2021/04/04/intro-to-bitcoin/s2f.gif" target="_blank" /></a>
+<figcaption>
+<a href="https://digitalik.net/btc/" target="_blank">Stock-to-flow chart</a> on <a href="https://digitalik.net" target="_blank">digitalik.net</a> dives into this topic more deeply, attempting to model a link between the supply and the price.
+</figcaption>
+</figure>
+
+<h1 id="how-bitcoin-is-valued">How Bitcoin is Valued</h1>
+
+<h2 id="compared-to-gold">Compared to Gold</h2>
+<p>When valuing a new type of asset, the most obvious way is to look at something similar. Since Bitcoin is often touted to be digital gold, it’s no surprise we look at gold to attempt to value Bitcoin.</p>
+
+<p>Physical gold has long been the non-sovereign store of value without counter-party risk. Although the gold standard was severed in 1971, central banks today still buy gold. Gold’s current market cap is roughly $10 trillion, the exact number being difficult to determine.</p>
+
+<p>Bitcoin’s current market cap is $1.2 trillion, and for Bitcoin to reach gold’s market cap it would have to go 8.3x from here, or from $60,000 per Bitcoin to $498,000 per Bitcoin.</p>
+
+<p>Even if Bitcoin reaches gold levels and not higher, the upside potential is massive, cementing Bitcoin as the best asymmetric bet one can take today.</p>
+
+<p>Money has always been a technology, and nothing embodies this more than that money becoming software. Since Bitcoin is pure information, the shackles that limits gold have nothing to grasp onto when it comes to Bitcoin. <a href="https://www.cryptopolitan.com/bitcoin-worth-4-5-billion-transferred/">Settling billions of dollars</a> worth in value can happen in an hour instead of three banking days.</p>
+
+<h2 id="compared-to-bonds">Compared to Bonds</h2>
+<p>Total bond market is roughly $100 trillion. This is the amount of debt denominated in corporate and government bonds.</p>
+
+<p>As bond yields lower due to the central banks printing and inflation expectations rise, many are forced to allocate at least some portion of their assets to Bitcoin that has had an average returns of 200% per year for the last 10 years.</p>
+
+<p>You already see this shift happening to <a href="https://bitcointreasuries.org/">private and publicly traded companies</a> and <a href="https://seekingalpha.com/news/3671187-new-york-life-ceo-ted-mathas-warms-to-bitcoin-joins-nydig">insurance companies</a>.</p>
+
+<p>If Bitcoin received 5% percent of this <em>alone</em>, not accounting for any store of value premium taken from other assets, Bitcoin would have a market cap of $5 trillion or a little above $238,000 per Bitcoin.</p>
+
+<h2 id="global-reserve-asset">Global Reserve Asset</h2>
+
+<p><a href="https://www.oecd-ilibrary.org/sites/095705eb-en/index.html?itemId=/content/component/095705eb-en">Total global financial assets amount to about $400 trillion</a>. If Bitcoin takes a mere 5% allocation of this, then Bitcoin would have a market cap of $20 trillion or a little less than a $1 million per Bitcoin.</p>
+
+<p>Since Bitcoin is created via mining, and mining requires energy, due to the lack of physical form of Bitcoin, <a href="https://gam.ai/">many</a> <a href="https://www.upstreamdata.ca/">entrepreneurs</a> are catching on to the idea of mining Bitcoin using stranded energy sources.</p>
+
+<p>You even have the likes of large energy players such as Norway’s Aker, through their Bitcoin-focused company <a href="seetee.io">Seetee</a>, acknowledge Bitcoin’s role in balancing global energy usage.</p>
+
+<blockquote>
+  <p>Seetee will establish mining operations that transfer stranded or intermittent electricity without stable demand locally—wind, solar, hydro power— to economic assets that can be used anywhere. Bitcoin is, in our eyes, a load-balancing economic battery.</p>
+
+  <p>– Kjell Inge Røkke, <a href="https://www.seetee.io/">letter to shareholders</a></p>
+</blockquote>
+
+<p>As more energy companies pour otherwise wasted energy to securing the Bitcoin network, along with the fraying of the <a href="https://www.lynalden.com/fraying-petrodollar-system/">US global currency reserve system</a>, there’s a non-miniscule chance that energy providers that to price the energy they produce in Bitcoin. When this occurs, Bitcoin will have its petrodollar moment.</p>
+
+<blockquote>
+  <p>If you own zero bitcoin right now, you are taking extreme amounts of risk.</p>
+
+  <p>– Greg Foss, <a href="https://www.whatbitcoindid.com/podcast/bitcoin-as-investment-portfolio-insurance">What Bitcoin Did postcast</a></p>
+</blockquote>
+
+<h1 id="risks">Risks</h1>
+
+<h2 id="software-bugs">Software Bugs</h2>
+<p>As with all software, Bitcoin is subject to bugs. Some are worse than others, and a fairly recent example is the <a href="https://bitcoincore.org/en/2018/09/20/notice/">inflation bug</a>.</p>
+
+<p>Undoing the effects bugs such as these could involve forking the network if it has been exploited, but what’s equally important is knowing when such breaches occur. This is an excellent reason for people to run their own Bitcoin nodes. With this, they may verify the supply without having to trust a third party.</p>
+
+<h2 id="global-liquidation-events">Global Liquidation Events</h2>
+<p>In March 2020, there was a global liquidation event in which people sold assets to ensure they would have enough dollars to pay for debt they had which was denominated in US dollars. Bitcoin <a href="https://www.cnbc.com/2020/03/13/bitcoin-loses-half-of-its-value-in-two-day-plunge.html">plunged to about $4,000</a> from $10,000. Since Bitcoin markets are on 24/7 and are not shut down during extreme market events, it is a good candidate as a source of liquidity. When you’re desperate for dollars, you sell what you can, not what you want.</p>
+
+<p>To avoid being affected by this, one can have a longer time horizon when buying Bitcoin, such as at least 5 years.</p>
+
+<h2 id="government-ban">Government Ban</h2>
+<p>One of the oldest worries of investors is having the governments ban Bitcoin. This is a tired topic, one that <a href="https://unchained-capital.com/blog/bitcoin-cannot-be-banned/">has been covered</a> in greater detail than I could.</p>
+
+<p>While you have had some states ban it, such as <a href="https://www.forbes.com/sites/steveforbes/2021/03/18/indias-plan-to-ban-bitcoin-could-the-us-be-next/">India</a> and <a href="https://dailypost.ng/2021/02/05/breaking-cbn-bans-nigerians-from-buying-selling-bitcoin-crypto/">Nigeria</a>, the opposite effect seems to occur – to the extent that the <a href="https://news.bitcoin.com/nigeria-crypto-ban-bitcoin-sells-for-76k-as-deposits-on-centralized-exchanges-plummet/">price even goes higher</a>.</p>
+
+<p>Such bans beg the question: will strong states like the US ban Bitcoin?</p>
+
+<p>The US government seems to be more open to Bitcoin than every before, including allowing <a href="Coinbase%20to%20go%20public">Coinbase to go public</a>, <a href="public%20companies%20to%20buy%20Bitcoin">public companies to buy Bitcoin</a>, furthermore, <a href="https://www.cnbc.com/2021/02/11/bny-mellon-to-offer-bitcoin-services-a-validation-of-crypto-from-a-key-bank-in-the-financial-system.html">traditional</a> <a href="https://www.cnbc.com/2021/03/31/bitcoin-goldman-is-close-to-offering-bitcoin-to-its-richest-clients.html">banks</a> have been getting into the scene as well.</p>
+
+<p>In the Philippines, Bitcoin is recognized and regulated by the <a href="https://bitpinas.com/feature/list-licensed-virtual-currency-exchanges-philippines/">Bangko Sentral</a>.</p>
+
+<h1 id="trading">Trading</h1>
+
+<h2 id="sats">Sats: The Smallest Unit</h2>
+<p>One of the most common misconceptions with Bitcoin is the idea that people cannot subdivide a Bitcoin. A single Bitcoin can be subdivided into 100 million subunits called Satoshis, or sats for short.</p>
+
+<p>Since there will only be 21 million Bitcoin that will ever exist, this is absolutely integral to be able to ensure that everyone can theoretically own at least a fraction of a Bitcoin.</p>
+
+<h2 id="fees">Fees</h2>
+<p>Bitcoin trades like other commodities, through over-the-counter, peer-to-peer, and order book exchanges. Each of these have their version of a fee applied depending on local market conditions.</p>
+
+<h2 id="taxes">Taxes</h2>
+<p>When you sell Bitcoin, some jurisdictions require you to pay capital gains, while <a href="https://www.forbes.com/sites/kellyphillipserb/2019/09/19/portugal-tax-authorities-clarify-that-buying-or-selling-cryptocurrency-is-tax-free/">others do not</a>.</p>
+
+<p>In the Philippines, I am not aware of anything declared by the BIR.</p>
+
+<h1 id="storage">Storage</h1>
+<p>Even through Bitcoin is a digital, non-physical asset, storage of Bitcoin means proper storage of keys. These keys behave like long, secure passwords that give the bearer the ability to send Bitcoin to someone else. There are two types of storage:</p>
+
+<ul>
+  <li><strong>Non-custodial</strong>. In this scenario, you control the key (or keys) required to send Bitcoin out.</li>
+  <li><strong>Custodial</strong>. You need to ask someone else to send the Bitcoin for you. In the past several years, the infrastructure in this area has grown tremendously, allowing institutions to give custody of their assets to companies such as <a href="https://anchorage.com/">Anchorage</a>.</li>
+</ul>
+
+<p>Although security is not an easy subject, custody of large of amounts of Bitcoin is much easier and cheaper than storing the equivalent in gold. Wallet software such as <a href="https://specter.solutions/">Specter Desktop</a> make multi-signature (require more than one key to send Bitcoin out) wallets much easier to create, utilizing <a href="coldcardwallet.com/">hardware</a> <a href="https://cobo.com/hardware-wallet/cobo-vault">wallets</a> that store these secret keys away from potential hackers’ prying eyes on machines connected to the Internet.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+<p>While no one will ever understand Bitcoin in its entirety, being able to understand it enough requires hundreds, perhaps even thousands of hours devouring content.</p>
+
+<blockquote>
+  <p>Owning bitcoins is one of the few asymmetric bets that people across the entire world can participate in. Much like a call option, an investor’s downside is limited to 1x, while their potential upside is still 100x or more.</p>
+
+  <p>– Vijay Voyapati on <a href="https://vijayboyapati.medium.com/the-bullish-case-for-bitcoin-6ecc8bdecc1">The Bullish Case for Bitcoin</a></p>
+</blockquote>
+
+<p>This article only touches the surface of Bitcoin. If you feel like I should have covered something here, or wish that I write about something else, please email me: ramon at tayag.net.</p>
+</article></div><aside class="lg:w-2/6 px-4 lg:px-0 mt-6 lg:mt-0"><div class="mb-2"><h2>Recent Articles</h2><ul><li><span><a href="/2021/04/04/intro-to-bitcoin.html">Intro to Bitcoin</a></span> <span class="text-gray-500 text-xs">Apr  4</span></li><li><span><a href="/2015/01/22/how-i-organize-my-rails-app.html">How I Organize My Rails Apps</a></span> <span class="text-gray-500 text-xs">Jan 22</span></li></ul></div><div class="mb-2"><h2>Tags</h2><ol><li><a href="/tags/bitcoin.html">bitcoin (1)</a></li><li><a href="/tags/rails.html">rails (1)</a></li></ol></div><div><h2>By Year</h2><ol><li><a href="/2021.html">2021 (1)</a></li><li><a href="/2015.html">2015 (1)</a></li></ol></div></aside></div></body></html>
