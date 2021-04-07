@@ -5,7 +5,7 @@ module.exports = {
   mode: 'development',
   entry: {
     site: ['./source/javascripts/site.js'],
-    style: ['./source/stylesheets/site.css.scss'],
+    style: ['./source/stylesheets/site.scss'],
   },
   output: {
     path: path.resolve(__dirname, '.tmp/dist'),

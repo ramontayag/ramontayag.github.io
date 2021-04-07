@@ -56,7 +56,7 @@ page "/feed.xml", layout: false
 activate(:external_pipeline, {
  name: :webpack,
  command: build? ?
-   "./node_modules/webpack/bin/webpack.js --bail -p" :
+   "./node_modules/webpack/bin/webpack.js --bail" :
    "./node_modules/webpack/bin/webpack.js --watch --progress --color",
  source: ".tmp/dist",
  latency: 1,
@@ -97,7 +97,7 @@ set :markdown, :fenced_code_blocks => true, :smartypants => true, tables: true
 activate :syntax
 
 activate :deploy do |deploy|
-  deploy.method = :git
+  deploy.deploy_method = :git
   # Optional Settings
   # deploy.remote   = 'custom-remote' # remote name or git url, default: origin
   # deploy.branch   = 'custom-branch' # default: gh-pages

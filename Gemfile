@@ -22,4 +22,4 @@ gem "nokogiri"
 
 gem "middleman-syntax"
 
-gem "middleman-deploy"
+gem "middleman-deploy", "~> 2.0.0.pre.alpha"
