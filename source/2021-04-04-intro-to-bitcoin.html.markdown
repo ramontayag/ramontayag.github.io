@@ -88,7 +88,7 @@ If Bitcoin received 5% percent of this *alone*, not accounting for any store of 
 
 Since Bitcoin is created via mining, and mining requires energy, due to the lack of physical form of Bitcoin, [many](https://gam.ai/) [entrepreneurs](https://www.upstreamdata.ca/) are catching on to the idea of mining Bitcoin using stranded energy sources.
 
-You even have the likes of large energy players such as Norway's Aker, through their Bitcoin-focused company [Seetee](seetee.io), acknowledge Bitcoin's role in balancing global energy usage.
+You even have the likes of large energy players such as Norway's Aker, through their Bitcoin-focused company [Seetee](https://seetee.io), acknowledge Bitcoin's role in balancing global energy usage.
 
 > Seetee will establish mining operations that transfer stranded or intermittent electricity without stable demand locally—wind, solar, hydro power— to economic assets that can be used anywhere. Bitcoin is, in our eyes, a load-balancing economic battery.
 >
@@ -119,7 +119,7 @@ While you have had some states ban it, such as [India](https://www.forbes.com/si
 
 Such bans beg the question: will strong states like the US ban Bitcoin?
 
-The US government seems to be more open to Bitcoin than every before, including allowing [Coinbase to go public](Coinbase to go public), [public companies to buy Bitcoin](public companies to buy Bitcoin), furthermore, [traditional](https://www.cnbc.com/2021/02/11/bny-mellon-to-offer-bitcoin-services-a-validation-of-crypto-from-a-key-bank-in-the-financial-system.html) [banks](https://www.cnbc.com/2021/03/31/bitcoin-goldman-is-close-to-offering-bitcoin-to-its-richest-clients.html) have been getting into the scene as well.
+The US government seems to be more open to Bitcoin than every before, including allowing [Coinbase to go public](https://www.marketwatch.com/story/coinbase-set-to-go-public-in-direct-listing-april-14-11617312934), [public companies to buy Bitcoin](https://bitcointreasuries.org/), furthermore, [traditional](https://www.cnbc.com/2021/02/11/bny-mellon-to-offer-bitcoin-services-a-validation-of-crypto-from-a-key-bank-in-the-financial-system.html) [banks](https://www.cnbc.com/2021/03/31/bitcoin-goldman-is-close-to-offering-bitcoin-to-its-richest-clients.html) have been getting into the scene as well.
 
 In the Philippines, Bitcoin is recognized and regulated by the [Bangko Sentral](https://bitpinas.com/feature/list-licensed-virtual-currency-exchanges-philippines/).
 
@@ -144,7 +144,7 @@ Even through Bitcoin is a digital, non-physical asset, storage of Bitcoin means 
 - **Non-custodial**. In this scenario, you control the key (or keys) required to send Bitcoin out.
 - **Custodial**. You need to ask someone else to send the Bitcoin for you. In the past several years, the infrastructure in this area has grown tremendously, allowing institutions to give custody of their assets to companies such as [Anchorage](https://anchorage.com/).
 
-Although security is not an easy subject, custody of large of amounts of Bitcoin is much easier and cheaper than storing the equivalent in gold. Wallet software such as [Specter Desktop](https://specter.solutions/) make multi-signature (require more than one key to send Bitcoin out) wallets much easier to create, utilizing [signing](coldcardwallet.com/) [devices](https://cobo.com/hardware-wallet/cobo-vault) (a.k.a. hardware wallets) that store these secret keys away from potential hackers' prying eyes on machines connected to the Internet.
+Although security is not an easy subject, custody of large of amounts of Bitcoin is much easier and cheaper than storing the equivalent in gold. Wallet software such as [Specter Desktop](https://specter.solutions/) make multi-signature (require more than one key to send Bitcoin out) wallets much easier to create, utilizing [signing](https://coldcardwallet.com/) [devices](https://cobo.com/hardware-wallet/cobo-vault) (a.k.a. hardware wallets) that store these secret keys away from potential hackers' prying eyes on machines connected to the Internet.
 
 # Conclusion
 While no one will ever understand Bitcoin in its entirety, being able to understand it enough requires hundreds, perhaps even thousands of hours devouring content.
