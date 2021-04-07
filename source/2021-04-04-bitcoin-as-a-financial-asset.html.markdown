@@ -1,5 +1,5 @@
 ---
-title: Intro to Bitcoin
+title: Bitcoin as a Financial Asset
 date: 2021-04-04
 tags: bitcoin
 ---
