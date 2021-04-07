@@ -39,7 +39,7 @@ Despite the attention it's getting today, Bitcoin was ignored by many for years.
 
 New Bitcoin is created roughly every 10 minutes by a process called mining. Bitcoin mining halves the issuance of Bitcoin to miners roughly every 4 years, creating a predictable schedule of inflation.
 
-For the first four years, 50 Bitcoin was created every 10 minutes. For the next four years, the issuance rate is halved, just to repeat itself four years later. The event where the the issuance rate is cut by half is called The Halving.
+For the first four years, 50 Bitcoin was created every 10 minutes. For the next four years, the issuance rate is halved, just to repeat itself four years later. The event where the issuance rate is cut by half is called commonly referred to as The Halving.
 
 |   Epoch   | Reward every 10 minutes |
 |:---------:|:-----------------------:|
@@ -74,9 +74,9 @@ Even if Bitcoin reaches gold levels and not higher, the upside potential is mass
 Money has always been a technology, and nothing embodies this more than that money becoming software. Since Bitcoin is pure information, the shackles that limits gold have nothing to grasp onto when it comes to Bitcoin. [Settling billions of dollars](https://www.cryptopolitan.com/bitcoin-worth-4-5-billion-transferred/) worth in value can happen in an hour instead of three banking days.
 
 ## Compared to Bonds
-Total bond market is roughly $100 trillion. This is the amount of debt denominated in corporate and government bonds.
+The total bond market is roughly $100 trillion. This is the amount of debt denominated in corporate and government bonds.
 
-As bond yields lower due to the central banks printing and inflation expectations rise, many are forced to allocate at least some portion of their assets to Bitcoin that has had an average returns of 200% per year for the last 10 years.
+As bond yields lower due to central banks printing and inflation expectations rise, many are forced to allocate at least some portion of their assets to Bitcoin that has had an average returns of 200% per year for the last 10 years.
 
 You already see this shift happening to [private and publicly traded companies](https://bitcointreasuries.org/) and [insurance companies](https://seekingalpha.com/news/3671187-new-york-life-ceo-ted-mathas-warms-to-bitcoin-joins-nydig).
 
@@ -94,7 +94,7 @@ You even have the likes of large energy players such as Norway's Aker, through t
 >
 > -- Kjell Inge Røkke, [letter to shareholders](https://www.seetee.io/)
 
-As more energy companies pour otherwise wasted energy to securing the Bitcoin network, along with the fraying of the [US global currency reserve system](https://www.lynalden.com/fraying-petrodollar-system/), there's a non-miniscule chance that energy providers that to price the energy they produce in Bitcoin. When this occurs, Bitcoin will have its petrodollar moment.
+As more energy companies pour otherwise wasted energy to securing the Bitcoin network, along with the [fraying of the US global currency reserve system](https://www.lynalden.com/fraying-petrodollar-system/), there's a non-miniscule chance that energy providers that to price the energy they produce in Bitcoin. When this occurs, Bitcoin will have its petrodollar moment.
 
 > If you own zero bitcoin right now, you are taking extreme amounts of risk.
 >
@@ -108,14 +108,14 @@ As with all software, Bitcoin is subject to bugs. Some are worse than others, an
 Undoing the effects bugs such as these could involve forking the network if it has been exploited, but what's equally important is knowing when such breaches occur. This is an excellent reason for people to run their own Bitcoin nodes. With this, they may verify the supply without having to trust a third party.
 
 ## Global Liquidation Events
-In March 2020, there was a global liquidation event in which people sold assets to ensure they would have enough dollars to pay for debt they had which was denominated in US dollars. Bitcoin [plunged to about $4,000](https://www.cnbc.com/2020/03/13/bitcoin-loses-half-of-its-value-in-two-day-plunge.html) from $10,000. Since Bitcoin markets are on 24/7 and are not shut down during extreme market events, it is a good candidate as a source of liquidity. When you're desperate for dollars, you sell what you can, not what you want.
+In March 2020, there was a global liquidation event in which people sold assets to ensure they would have enough dollars to pay for US dollar denominated debt they had. Bitcoin [plunged to about $4,000](https://www.cnbc.com/2020/03/13/bitcoin-loses-half-of-its-value-in-two-day-plunge.html) from $10,000. Since Bitcoin markets are on 24/7 and are not shut down during extreme market events, it is a good candidate as a source of liquidity. When you're desperate for dollars, you sell what you can, not what you want.
 
 To avoid being affected by this, one can have a longer time horizon when buying Bitcoin, such as at least 5 years.
 
 ## Government Ban
 One of the oldest worries of investors is having the governments ban Bitcoin. This is a tired topic, one that [has been covered](https://unchained-capital.com/blog/bitcoin-cannot-be-banned/) in greater detail than I could.
 
-While you have had some states ban it, such as [India](https://www.forbes.com/sites/steveforbes/2021/03/18/indias-plan-to-ban-bitcoin-could-the-us-be-next/) and [Nigeria](https://dailypost.ng/2021/02/05/breaking-cbn-bans-nigerians-from-buying-selling-bitcoin-crypto/), the opposite effect seems to occur -- to the extent that the [price even goes higher](https://news.bitcoin.com/nigeria-crypto-ban-bitcoin-sells-for-76k-as-deposits-on-centralized-exchanges-plummet/).
+While you have had some states ban it, such as [India](https://www.forbes.com/sites/steveforbes/2021/03/18/indias-plan-to-ban-bitcoin-could-the-us-be-next/) and [Nigeria](https://dailypost.ng/2021/02/05/breaking-cbn-bans-nigerians-from-buying-selling-bitcoin-crypto/), the opposite effect occurs -- to the extent that the [price even goes higher](https://news.bitcoin.com/nigeria-crypto-ban-bitcoin-sells-for-76k-as-deposits-on-centralized-exchanges-plummet/).
 
 Such bans beg the question: will strong states like the US ban Bitcoin?
 
@@ -126,7 +126,7 @@ In the Philippines, Bitcoin is recognized and regulated by the [Bangko Sentral](
 # Trading
 
 ## Sats: The Smallest Unit {#sats}
-One of the most common misconceptions with Bitcoin is the idea that people cannot subdivide a Bitcoin. A single Bitcoin can be subdivided into 100 million subunits called Satoshis, or sats for short.
+One of the most common misconceptions with Bitcoin is the idea that people cannot subdivide a Bitcoin. A single Bitcoin can be subdivided into 100 million subunits called Satoshis, or "sats" for short.
 
 Since there will only be 21 million Bitcoin that will ever exist, this is absolutely integral to be able to ensure that everyone can theoretically own at least a fraction of a Bitcoin.
 
@@ -144,7 +144,7 @@ Even through Bitcoin is a digital, non-physical asset, storage of Bitcoin means 
 - **Non-custodial**. In this scenario, you control the key (or keys) required to send Bitcoin out.
 - **Custodial**. You need to ask someone else to send the Bitcoin for you. In the past several years, the infrastructure in this area has grown tremendously, allowing institutions to give custody of their assets to companies such as [Anchorage](https://anchorage.com/).
 
-Although security is not an easy subject, custody of large of amounts of Bitcoin is much easier and cheaper than storing the equivalent in gold. Wallet software such as [Specter Desktop](https://specter.solutions/) make multi-signature (require more than one key to send Bitcoin out) wallets much easier to create, utilizing [hardware](coldcardwallet.com/) [wallets](https://cobo.com/hardware-wallet/cobo-vault) that store these secret keys away from potential hackers' prying eyes on machines connected to the Internet.
+Although security is not an easy subject, custody of large of amounts of Bitcoin is much easier and cheaper than storing the equivalent in gold. Wallet software such as [Specter Desktop](https://specter.solutions/) make multi-signature (require more than one key to send Bitcoin out) wallets much easier to create, utilizing [signing](coldcardwallet.com/) [devices](https://cobo.com/hardware-wallet/cobo-vault) (a.k.a. hardware wallets) that store these secret keys away from potential hackers' prying eyes on machines connected to the Internet.
 
 # Conclusion
 While no one will ever understand Bitcoin in its entirety, being able to understand it enough requires hundreds, perhaps even thousands of hours devouring content.
