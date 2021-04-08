@@ -24,6 +24,10 @@
     @apply ml-4; }
   a {
     @apply text-blue-700; }
+    a:hover {
+      @apply underline; }
+    a:visited {
+      @apply text-purple-500; }
   code {
     @apply text-red-800;
     @apply bg-gray-200;
