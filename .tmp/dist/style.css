@@ -499,6 +499,11 @@ li li {
 a {
   --tw-text-opacity: 1;
   color: rgba(29, 78, 216, var(--tw-text-opacity)); }
+  a:hover {
+    text-decoration: underline; }
+  a:visited {
+    --tw-text-opacity: 1;
+    color: rgba(139, 92, 246, var(--tw-text-opacity)); }
 
 code {
   --tw-text-opacity: 1;
