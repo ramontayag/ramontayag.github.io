@@ -157,7 +157,7 @@ Although security is not an easy subject, custody of large of amounts of Bitcoin
 I cover advanced methods of storing Bitcoin in [another blog post](https://medium.com/bloomx/storing-cryptocurrencies-safely-b37826ac736e).
 
 # Conclusion
-While no one will ever understand Bitcoin in its entirety, being able to understand it enough requires hundreds, perhaps even thousands of hours devouring content.
+While no one will ever understand Bitcoin in its entirety, being able to understand it enough requires hundreds, perhaps even thousands of hours devouring content. Understanding it, however, affords one the conviction to hold what is arguably the hardest money we have ever seen -- something that is only ignored at the peril of one's wealth.
 
 > Owning bitcoins is one of the few asymmetric bets that people across the entire world can participate in. Much like a call option, an investor’s downside is limited to 1x, while their potential upside is still 100x or more.
 >
