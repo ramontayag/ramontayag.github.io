@@ -139,12 +139,22 @@ When you sell Bitcoin, some jurisdictions require you to pay capital gains, whil
 In the Philippines, I am not aware of anything declared by the BIR.
 
 # Storage
-Even through Bitcoin is a digital, non-physical asset, storage of Bitcoin means proper storage of keys. These keys behave like long, secure passwords that give the bearer the ability to send Bitcoin to someone else. There are two types of storage:
+Unlike practically all other assets, Bitcoin is unique in the sense that taking custody of Bitcoin is cheap and relatively easy. While good security is never easy, storing a billion dollars worth in Bitcoin has the same costs as storing a million.
+
+Since Bitcoin is not of physical form, what does it mean to "store" it? Answering this question requires some explanation of what keys are.
+
+You have probably heard that Bitcoin has a password, and if forgotten, loss of access to Bitcoin is the consequence. There are different software developers that offer wallets, but ultimately, access to Bitcoin is tied to a private key. Bitcoin then is never "in" a wallet, or "in" a computer, but rather, the private key is, and Bitcoin is just the number on the ledger that can be accessed with that private key.
+
+Bitcoin addresses, that look like `bc1qrg6paunl8vwcddejwqzeddfmckycytq2uqxx20`, is the public side of the private key, much like a P.O. box address. You can tell people to send items to your P.O. box, but only the one with the private key can open it.
+
+Even through Bitcoin is a digital, non-physical asset, storage of Bitcoin means proper storage of keys. There are two types of storage:
 
 - **Non-custodial**. In this scenario, you control the key (or keys) required to send Bitcoin out.
 - **Custodial**. You need to ask someone else to send the Bitcoin for you. In the past several years, the infrastructure in this area has grown tremendously, allowing institutions to give custody of their assets to companies such as [Anchorage](https://anchorage.com/).
 
 Although security is not an easy subject, custody of large of amounts of Bitcoin is much easier and cheaper than storing the equivalent in gold. Wallet software such as [Specter Desktop](https://specter.solutions/) make multi-signature (require more than one key to send Bitcoin out) wallets much easier to create, utilizing [signing](https://coldcardwallet.com/) [devices](https://cobo.com/hardware-wallet/cobo-vault) (a.k.a. hardware wallets) that store these secret keys away from potential hackers' prying eyes on machines connected to the Internet.
+
+I cover advanced methods of storing Bitcoin in [another blog post](https://medium.com/bloomx/storing-cryptocurrencies-safely-b37826ac736e).
 
 # Conclusion
 While no one will ever understand Bitcoin in its entirety, being able to understand it enough requires hundreds, perhaps even thousands of hours devouring content.
