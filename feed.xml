@@ -14,7 +14,7 @@
     <link rel="alternate" href="http://blog.url.com/2021/04/04/bitcoin-as-a-financial-asset.html"/>
     <id>http://blog.url.com/2021/04/04/bitcoin-as-a-financial-asset.html</id>
     <published>2021-04-04T08:00:00+08:00</published>
-    <updated>2021-04-07T18:42:33+08:00</updated>
+    <updated>2021-04-11T11:11:43+08:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -191,7 +191,15 @@
 &lt;p&gt;In the Philippines, I am not aware of anything declared by the BIR.&lt;/p&gt;
 
 &lt;h1 id="storage"&gt;Storage&lt;/h1&gt;
-&lt;p&gt;Even through Bitcoin is a digital, non-physical asset, storage of Bitcoin means proper storage of keys. These keys behave like long, secure passwords that give the bearer the ability to send Bitcoin to someone else. There are two types of storage:&lt;/p&gt;
+&lt;p&gt;Unlike practically all other assets, Bitcoin is unique in the sense that taking custody of Bitcoin is cheap and relatively easy. While good security is never easy, storing a billion dollars worth in Bitcoin has the same costs as storing a million.&lt;/p&gt;
+
+&lt;p&gt;Since Bitcoin is not of physical form, what does it mean to “store” it? Answering this question requires some explanation of what keys are.&lt;/p&gt;
+
+&lt;p&gt;You have probably heard that Bitcoin has a password, and if forgotten, loss of access to Bitcoin is the consequence. There are different software developers that offer wallets, but ultimately, access to Bitcoin is tied to a private key. Bitcoin then is never “in” a wallet, or “in” a computer, but rather, the private key is, and Bitcoin is just the number on the ledger that can be accessed with that private key.&lt;/p&gt;
+
+&lt;p&gt;Bitcoin addresses, that look like &lt;code&gt;bc1qrg6paunl8vwcddejwqzeddfmckycytq2uqxx20&lt;/code&gt;, is the public side of the private key, much like a P.O. box address. You can tell people to send items to your P.O. box, but only the one with the private key can open it.&lt;/p&gt;
+
+&lt;p&gt;Even through Bitcoin is a digital, non-physical asset, storage of Bitcoin means proper storage of keys. There are two types of storage:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;Non-custodial&lt;/strong&gt;. In this scenario, you control the key (or keys) required to send Bitcoin out.&lt;/li&gt;
@@ -199,6 +207,8 @@
 &lt;/ul&gt;
 
 &lt;p&gt;Although security is not an easy subject, custody of large of amounts of Bitcoin is much easier and cheaper than storing the equivalent in gold. Wallet software such as &lt;a href="https://specter.solutions/"&gt;Specter Desktop&lt;/a&gt; make multi-signature (require more than one key to send Bitcoin out) wallets much easier to create, utilizing &lt;a href="https://coldcardwallet.com/"&gt;signing&lt;/a&gt; &lt;a href="https://cobo.com/hardware-wallet/cobo-vault"&gt;devices&lt;/a&gt; (a.k.a. hardware wallets) that store these secret keys away from potential hackers’ prying eyes on machines connected to the Internet.&lt;/p&gt;
+
+&lt;p&gt;I cover advanced methods of storing Bitcoin in &lt;a href="https://medium.com/bloomx/storing-cryptocurrencies-safely-b37826ac736e"&gt;another blog post&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h1 id="conclusion"&gt;Conclusion&lt;/h1&gt;
 &lt;p&gt;While no one will ever understand Bitcoin in its entirety, being able to understand it enough requires hundreds, perhaps even thousands of hours devouring content.&lt;/p&gt;
