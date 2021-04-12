@@ -10,7 +10,7 @@ READMORE
 
 Though I'm not a cryptographer or a distributed systems programmer, having a computer science background allowed me to more easily understand the technical side of Bitcoin. Naturally, while learning the technical side of Bitcoin, I asked the age-old question: **what is money?**
 
-This quickly led me down the deep rabbit-hole of money and its history, banking and its history, fiat currencies, gold standard, economics, and the latest addition, macroeconomics. In 2019, it started to click for me: **Bitcoin is the most important invention since the Internet because of its potential to be a global reserve asset**. Since money is a winner-take-most game, I decided to set my sites exclusively on Bitcoin.
+This quickly led me down the deep rabbit-hole of money and its history, banking and its history, fiat currencies, gold standard, economics, and the latest addition, macroeconomics. In 2019, it started to click for me: **Bitcoin is the most important invention since the Internet because of its potential to be a global reserve asset**. Since money is a winner-take-most game, I decided to set my sights exclusively on Bitcoin.
 
 This article is certainly not my original thoughts. I'd like to thank Preston Pysh, Lyn Alden, Greg Foss, Nik Bhatia, and many others who, through their articles and podcasts, have helped me understand Bitcoin from a financial point of view.
 
