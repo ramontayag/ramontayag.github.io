@@ -35,7 +35,7 @@ In this article, we will cover:
 # History
 In November 2008, the pseudonymous creator of Bitcoin going by Satoshi Nakamoto, announced their invention of something called Bitcoin in the cypherpunks mailing list. He described Bitcoin as "electronic cash system that's fully peer-to-peer, with no trusted third party".
 
-Despite the attention it's getting today, Bitcoin was ignored by many for years. The first price appeared about 1.5 years after Satoshi's announcement at a meager [$0.003 per Bitcoin](https://en.bitcoinwiki.org/wiki/Bitcoin_history#Bitcoin_price_history_2009_to_2019).
+Unlike the attention it's getting today, Bitcoin was ignored by many for years. The first price appeared about 1.5 years after Satoshi's announcement at a meager [$0.003 per Bitcoin](https://en.bitcoinwiki.org/wiki/Bitcoin_history#Bitcoin_price_history_2009_to_2019).
 
 New Bitcoin is created roughly every 10 minutes by a process called mining. Bitcoin mining halves the issuance of Bitcoin to miners roughly every 4 years, creating a predictable schedule of inflation.
 
