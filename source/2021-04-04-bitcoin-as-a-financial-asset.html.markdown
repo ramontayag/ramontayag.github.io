@@ -65,7 +65,7 @@ While new Bitcoin will continue being issued for a while, the halvings are highl
 ## Compared to Gold
 When valuing a new type of asset, the most obvious way is to look at something similar. Since Bitcoin is often touted to be digital gold, it's no surprise we look at gold to attempt to value Bitcoin.
 
-Physical gold has long been the non-sovereign store of value without counter-party risk. Although the gold standard was severed in 1971, central banks today still buy gold. Gold's current market cap is roughly $10 trillion, the exact number being difficult to determine.
+Physical gold has long been the non-sovereign store of value without counter-party risk. Although the gold standard was severed in 1971, central banks today still buy gold. Gold's current market cap is roughly $10 trillion, with the exact number being difficult to determine.
 
 Bitcoin's current market cap is $1.2 trillion, and for Bitcoin to reach gold's market cap it would have to go 8.3x from here, or from $60,000 per Bitcoin to $498,000 per Bitcoin.
 
