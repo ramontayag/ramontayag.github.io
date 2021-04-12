@@ -49,7 +49,7 @@ For the first four years, 50 Bitcoin was created every 10 minutes. For the next 
 | 2020-2024 |           6.25          |
 | 2024-2028 |          3.125          |
 
-If you sum all of this, Bitcoin will have a little less than 21 million Bitcoin by the May 2138 -- over 120 years from today.
+If you sum all of this, Bitcoin will have a little less than 21 million Bitcoin by May 2138 -- over 120 years from today.
 
 While new Bitcoin will continue being issued for a while, the halvings are highly correlated with price spikes.
 
