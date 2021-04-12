@@ -14,7 +14,7 @@
     <link rel="alternate" href="http://blog.url.com/2021/04/04/bitcoin-as-a-financial-asset.html"/>
     <id>http://blog.url.com/2021/04/04/bitcoin-as-a-financial-asset.html</id>
     <published>2021-04-04T08:00:00+08:00</published>
-    <updated>2021-04-12T17:03:17+08:00</updated>
+    <updated>2021-04-12T18:05:15+08:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -199,7 +199,7 @@
 
 &lt;p&gt;Bitcoin addresses, that look like &lt;code&gt;bc1qrg6paunl8vwcddejwqzeddfmckycytq2uqxx20&lt;/code&gt;, is the public side of the private key, much like a P.O. box address. You can tell people to send items to your P.O. box, but only the one with the private key can open it.&lt;/p&gt;
 
-&lt;p&gt;Even through Bitcoin is a digital, non-physical asset, storage of Bitcoin means proper storage of keys. There are two types of storage:&lt;/p&gt;
+&lt;p&gt;Even though Bitcoin is a digital, non-physical asset, storage of Bitcoin means proper storage of keys. There are two types of storage:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;Non-custodial&lt;/strong&gt;. In this scenario, you control the key (or keys) required to send Bitcoin out.&lt;/li&gt;
