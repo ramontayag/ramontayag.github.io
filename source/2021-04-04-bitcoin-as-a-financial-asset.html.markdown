@@ -147,7 +147,7 @@ You have probably heard that Bitcoin has a password, and if forgotten, loss of a
 
 Bitcoin addresses, that look like `bc1qrg6paunl8vwcddejwqzeddfmckycytq2uqxx20`, is the public side of the private key, much like a P.O. box address. You can tell people to send items to your P.O. box, but only the one with the private key can open it.
 
-Even through Bitcoin is a digital, non-physical asset, storage of Bitcoin means proper storage of keys. There are two types of storage:
+Even though Bitcoin is a digital, non-physical asset, storage of Bitcoin means proper storage of keys. There are two types of storage:
 
 - **Non-custodial**. In this scenario, you control the key (or keys) required to send Bitcoin out.
 - **Custodial**. You need to ask someone else to send the Bitcoin for you. In the past several years, the infrastructure in this area has grown tremendously, allowing institutions to give custody of their assets to companies such as [Anchorage](https://anchorage.com/).
