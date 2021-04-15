@@ -74,9 +74,11 @@ Even if Bitcoin reaches gold levels and not higher, the upside potential is mass
 Money has always been a technology, and nothing embodies this more than that money becoming software. Since Bitcoin is pure information, the shackles that limits gold have nothing to grasp onto when it comes to Bitcoin. [Settling billions of dollars](https://www.cryptopolitan.com/bitcoin-worth-4-5-billion-transferred/) worth in value can happen in an hour instead of three banking days. Bitcoin can be sub-divided much more easily into 100 million units. Bitcoin can be streamed at the speed of light to your favorite podcast while you listen to it ad-free.
 
 ## Compared to Bonds
-The total bond market is roughly $100 trillion. This is the amount of debt denominated in corporate and government bonds.
+The total bond market is roughly $100 trillion. This is the amount of debt denominated in corporate and government bonds. In this market, there exists this dynamic where two forces (central bank pushes yields lower and inflation expectations go higher) are squeezing bond holders out of the market.
 
-As bond yields lower due to central banks printing and inflation expectations rise, many are forced to allocate at least some portion of their assets to Bitcoin that has had an average returns of 200% per year for the last 10 years.
+Why? Bond holders need to make a calculation: is what I'm earning with this bond beating inflation?
+
+With bond yields already at historic lows, inflation expectations need not be that high to come to the conclusion that one is losing money from holding a bond. Many are forced to allocate at least some portion of their assets elsewhere, and Bitcoin is a prime candidate. Bitcoin has had an average returns of 200% per year for the last 10 years and if held directly, it has no counterparty risk.
 
 You already see this shift happening to [private and publicly traded companies](https://bitcointreasuries.org/) and [insurance companies](https://seekingalpha.com/news/3671187-new-york-life-ceo-ted-mathas-warms-to-bitcoin-joins-nydig).
 
