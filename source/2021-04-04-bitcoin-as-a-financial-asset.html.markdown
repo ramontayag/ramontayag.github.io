@@ -121,7 +121,7 @@ While you have had some states ban it, such as [India](https://www.forbes.com/si
 
 Such bans beg the question: will strong states like the US ban Bitcoin?
 
-The US government seems to be more open to Bitcoin than every before, including allowing [Coinbase to go public](https://www.marketwatch.com/story/coinbase-set-to-go-public-in-direct-listing-april-14-11617312934), [public companies to buy Bitcoin](https://bitcointreasuries.org/), furthermore, [traditional](https://www.cnbc.com/2021/02/11/bny-mellon-to-offer-bitcoin-services-a-validation-of-crypto-from-a-key-bank-in-the-financial-system.html) [banks](https://www.cnbc.com/2021/03/31/bitcoin-goldman-is-close-to-offering-bitcoin-to-its-richest-clients.html) have been getting into the scene as well.
+The US government seems to be more open to Bitcoin than ever before, including allowing [Coinbase to go public](https://www.marketwatch.com/story/coinbase-set-to-go-public-in-direct-listing-april-14-11617312934), [public companies to buy Bitcoin](https://bitcointreasuries.org/), furthermore, [traditional](https://www.cnbc.com/2021/02/11/bny-mellon-to-offer-bitcoin-services-a-validation-of-crypto-from-a-key-bank-in-the-financial-system.html) [banks](https://www.cnbc.com/2021/03/31/bitcoin-goldman-is-close-to-offering-bitcoin-to-its-richest-clients.html) have been getting into the scene as well.
 
 In the Philippines, Bitcoin is recognized and regulated by the [Bangko Sentral](https://bitpinas.com/feature/list-licensed-virtual-currency-exchanges-philippines/).
 
