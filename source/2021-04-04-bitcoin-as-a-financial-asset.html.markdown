@@ -82,7 +82,7 @@ With bond yields already at historic lows, inflation expectations need not be th
 
 You already see this shift happening to [private and publicly traded companies](https://bitcointreasuries.org/) and [insurance companies](https://seekingalpha.com/news/3671187-new-york-life-ceo-ted-mathas-warms-to-bitcoin-joins-nydig).
 
-If Bitcoin received 5% percent of this *alone*, not accounting for any store of value premium taken from other assets, Bitcoin would have a market cap of $5 trillion or a little above $238,000 per Bitcoin.
+If Bitcoin was allocated 5% percent of this *alone*, not accounting for any store of value premium taken from other assets, Bitcoin would have a market cap of $5 trillion or a little above $238,000 per Bitcoin.
 
 ## Global Reserve Asset
 
