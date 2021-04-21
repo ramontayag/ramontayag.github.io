@@ -33,7 +33,7 @@ In this article, we will cover:
 6. [Conclusion](#conclusion)
 
 # History
-In November 2008, the pseudonymous creator of Bitcoin going by Satoshi Nakamoto, announced their invention of something called Bitcoin in the cypherpunks mailing list. He described Bitcoin as "electronic cash system that's fully peer-to-peer, with no trusted third party".
+In November 2008, the pseudonymous creator of Bitcoin going by Satoshi Nakamoto, announced his invention of something called Bitcoin in the cypherpunks mailing list. He described Bitcoin as "electronic cash system that's fully peer-to-peer, with no trusted third party".
 
 Unlike the attention it's getting today, Bitcoin was ignored by many for years. The first price appeared about 1.5 years after Satoshi's announcement at a meager [$0.003 per Bitcoin](https://en.bitcoinwiki.org/wiki/Bitcoin_history#Bitcoin_price_history_2009_to_2019).
 
