@@ -54,7 +54,7 @@ If you sum all of this, Bitcoin will have a little less than 21 million Bitcoin 
 While new Bitcoin will continue being issued for a while, the halvings are highly correlated with price spikes.
 
 <figure>
-<a href="https://digitalik.net/btc/"><img src="/2021/04/04/bitcoin-as-a-financial-asset/s2f.gif" target="_blank"></a>
+<a href="https://digitalik.net/btc/"><img src="/2021-04-04/bitcoin-as-a-financial-asset/s2f.gif" target="_blank"></a>
 <figcaption>
 <a href="https://digitalik.net/btc/" target="_blank">Stock-to-flow chart</a> on <a href="https://digitalik.net" target="_blank">digitalik.net</a> dives into this topic more deeply, attempting to model a link between the supply and the price.
 </figcaption>
