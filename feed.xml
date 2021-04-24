@@ -5,16 +5,98 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2021-04-04T08:00:00+08:00</updated>
+  <updated>2021-04-24T08:00:00+08:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Finding Lightning Network Nodes to Connect With</title>
+    <link rel="alternate" href="http://blog.url.com/2021/04/24/finding-lightning-network-nodes-to-connect-with.html"/>
+    <id>http://blog.url.com/2021/04/24/finding-lightning-network-nodes-to-connect-with.html</id>
+    <published>2021-04-24T08:00:00+08:00</published>
+    <updated>2021-04-24T11:13:50+08:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;In this blog post, I will talk about what I’ve learned so far trying to find nodes to find lightning nodes connect with that will help one become a routing node and earn some sats.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;Disclaimer: I am a newbie at this and using this blog as a way to journal my education.&lt;/p&gt;
+
+&lt;h1 id="why"&gt;Why&lt;/h1&gt;
+
+&lt;p&gt;I’ve spun up a Lightning Network node with the intention of lending sats over &lt;a href="https://pool.lightning.engineering"&gt;Lightning Pool&lt;/a&gt;. I quickly learned that no one was taking up my offers to lend, and that was most likely because my node didn’t have a reputation.&lt;/p&gt;
+
+&lt;p&gt;I want to increase my node’s reputation so I may do a wider variety of things, like lend over Lightning Pool, more effectively.&lt;/p&gt;
+
+&lt;h1 id="reputation"&gt;Reputation?&lt;/h1&gt;
+
+&lt;p&gt;A reputation is important to those borrowing because when they ask for that liquidity, they want someone who is more likely to be around than not. It makes sense: if you were borrowing and had two nodes offering the same interest rate, you would choose the one with a higher reputation.&lt;/p&gt;
+
+&lt;p&gt;One’s reputation has to do with:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;uptime&lt;/li&gt;
+  &lt;li&gt;reliability in being able to forward payments (which implies a other things like well-balanced channels)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It seems that the BOS Score is used to calculate the score of one’s node, but the score itself is proprietary.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src="/2021-04-24/finding-lightning-network-nodes-to-connect-with/bos-question.gif" /&gt;
+&lt;img src="/2021-04-24/finding-lightning-network-nodes-to-connect-with/bos-proprietary-answer.gif" /&gt;
+&lt;figcaption&gt;
+Though proprietary, it seems that Lightning Labs is at least going to clarify how it works. (Here's the [link](https://lightningcommunity.slack.com/archives/C6BPPDL7P/p1615914752001800), but it's a public Slack channel so it won't be there for long.)
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;For now, the best way I’ve found to understand how to make your Lightning node get a better score is to listen to &lt;a href="https://www.youtube.com/watch?v=HlPIB6jt6ww"&gt;Alex Bosworth has to say&lt;/a&gt;. Someone has kindly shared their notes &lt;a href="http://diyhpl.us/wiki/transcripts/chaincode-labs/2018-10-22-alex-bosworth-channel-management/"&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id="ok-now-what"&gt;Ok, now what?&lt;/h1&gt;
+
+&lt;p&gt;Now that I have a vague idea of what reputation is, what do I do? The first thing I’m looking at is to connect to nodes and provide liquidity. Which nodes though? What assurances (doesn’t have to be 100%) I won’t be locking up Bitcoin and spending on transaction fees by connecting with a node that isn’t going to send or receive that much anyway?&lt;/p&gt;
+
+&lt;h2 id="lower-fee-routes"&gt;Lower-fee routes&lt;/h2&gt;
+
+&lt;p&gt;While browsing &lt;a href="https://www.reddit.com/r/lightningnetwork"&gt;/r/lightningnetwork&lt;/a&gt;, I found &lt;a href="https://www.reddit.com/r/lightningnetwork/comments/lb7pbk/last_month_i_collected_over_7000_sats_in_fees/"&gt;a post&lt;/a&gt; that shared a tool that traverses the network and essentially returns a list of nodes that would likely help you increase your routing activity.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The idea is that we want to choose channel peers who offer us the greatest benefit to routing diversity across the LN below a given feerate threshold. Since during the payment process LN nodes try lower-fee routes before moving on to higher-fee routes, by increasing the number of ways nodes can reach you/be reached by you at low fee rates, you increase the probability that your node will lie along a successful payment route and thus your share of the LN payments market.&lt;/p&gt;
+
+  &lt;p&gt;– ajpwahqgbi&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id="nodes-that-peer-with-many"&gt;Nodes that peer with many&lt;/h2&gt;
+
+&lt;p&gt;I have yet to read the code and understand what it does, but it is a start. As the author has stated, there are other ways to find out which nodes to connect to. I posed the “whom should I connect with” question in a pay-to-join &lt;a href="https://t.me/LNBalancedChannels"&gt;Telegram group&lt;/a&gt; (pretty cool, you pay sats) and got this advice:&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src="/2021-04-24/finding-lightning-network-nodes-to-connect-with/peer-with-peer-with-many.gif" /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;This is sounds logical, and I have yet to find/design a way to do this. Two thoughts immediately come to mind:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Look at a graph and visually select these nodes&lt;/li&gt;
+  &lt;li&gt;Write a script that returns a list of these nodes&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Of course, if the first option can do it, I’d rather stick to that, but it also can’t be automated because I’ll be relying on my vision to do so.&lt;/p&gt;
+
+&lt;p&gt;I can also imagine combining these tools together: find nodes that peer with many and run that through the lower-fee routes script.&lt;/p&gt;
+
+&lt;h1 id="end"&gt;End&lt;/h1&gt;
+
+&lt;p&gt;I’ll be posting more as I learn more. These series of posts will not be as polished as the others I share around since they act more like notes than anything else.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Bitcoin as a Financial Asset</title>
     <link rel="alternate" href="http://blog.url.com/2021/04/04/bitcoin-as-a-financial-asset.html"/>
     <id>http://blog.url.com/2021/04/04/bitcoin-as-a-financial-asset.html</id>
     <published>2021-04-04T08:00:00+08:00</published>
-    <updated>2021-04-21T16:07:12+08:00</updated>
+    <updated>2021-04-24T16:32:27+08:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -102,7 +184,7 @@
 &lt;p&gt;While new Bitcoin will continue being issued for a while, the halvings are highly correlated with price spikes.&lt;/p&gt;
 
 &lt;figure&gt;
-&lt;a href="https://digitalik.net/btc/"&gt;&lt;img src="/2021/04/04/bitcoin-as-a-financial-asset/s2f.gif" target="_blank" /&gt;&lt;/a&gt;
+&lt;a href="https://digitalik.net/btc/"&gt;&lt;img src="/2021-04-04/bitcoin-as-a-financial-asset/s2f.gif" target="_blank" /&gt;&lt;/a&gt;
 &lt;figcaption&gt;
 &lt;a href="https://digitalik.net/btc/" target="_blank"&gt;Stock-to-flow chart&lt;/a&gt; on &lt;a href="https://digitalik.net" target="_blank"&gt;digitalik.net&lt;/a&gt; dives into this topic more deeply, attempting to model a link between the supply and the price.
 &lt;/figcaption&gt;
